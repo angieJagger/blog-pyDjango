@@ -1,0 +1,35 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+
+# =====================
+# Virtualenv
+# =====================
+venv/
+env/
+my_env/
+
+# =====================
+# Django
+# =====================
+.env
+staticfiles/
+media/
+
+# local settings (secrets)
+local.py
+mysite/mysite/settings.py
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# IDE / OS
+# =====================
+.DS_Store
+.idea/
+.vscode/
